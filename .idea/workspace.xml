@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfd67bb6-be32-472d-9672-593507f9f3b4" name="Default Changelist" comment="" />
+    <list default="true" id="cfd67bb6-be32-472d-9672-593507f9f3b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="gitignore" value="1" />
           <entry key="html" value="5" />
           <entry key="py" value="19" />
         </counts>
@@ -25,11 +28,13 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="5" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="6" />
           <entry key="html" value="390" />
           <entry key="py" value="314" />
         </counts>
@@ -37,6 +42,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="390" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="Python" value="314" />
         </counts>
       </usages-collector>
@@ -71,6 +77,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socialapp/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socialapp/templates/info.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -99,6 +114,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -116,6 +134,7 @@
         <option value="$PROJECT_DIR$/socialapp/templates/index.html" />
         <option value="$PROJECT_DIR$/socialapp/__init__.py" />
         <option value="$PROJECT_DIR$/socialapp/templates/info.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -131,6 +150,7 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -148,18 +168,6 @@
               <item name="social_flask" type="b2602c69:ProjectViewProjectNode" />
               <item name="social_flask" type="462c0819:PsiDirectoryNode" />
               <item name="socialapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="social_flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="social_flask" type="462c0819:PsiDirectoryNode" />
-              <item name="socialapp" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="social_flask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="social_flask" type="462c0819:PsiDirectoryNode" />
-              <item name="socialapp" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -305,13 +313,6 @@
     <entry file="file://$PROJECT_DIR$/socialapp/core/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/socialapp/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/socialapp/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -323,6 +324,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialapp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
