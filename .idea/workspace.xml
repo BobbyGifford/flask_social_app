@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfd67bb6-be32-472d-9672-593507f9f3b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/socialapp/error_pages/handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socialapp/templates/error_pages/403.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socialapp/templates/error_pages/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socialapp/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socialapp/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socialapp/users/picture_handler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/socialapp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/socialapp/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/socialapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/socialapp/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialapp/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/socialapp/users/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialapp/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/socialapp/users/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,48 +29,64 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
-          <entry key="html" value="7" />
-          <entry key="py" value="24" />
+          <entry key="html" value="9" />
+          <entry key="py" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="7" />
+          <entry key="HTML" value="9" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="24" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="8" />
-          <entry key="html" value="494" />
-          <entry key="py" value="2069" />
+          <entry key="html" value="665" />
+          <entry key="py" value="4283" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="494" />
+          <entry key="HTML" value="665" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="2069" />
+          <entry key="Python" value="4283" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/socialapp/models.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socialapp/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="322">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <marker date="1537395967062" expanded="true" signature="230:268" ph="..." />
-                <marker date="1537395967062" expanded="true" signature="289:294" ph="..." />
-                <marker date="1537395967062" expanded="true" signature="289:1048" ph="..." />
-                <marker date="1537395967062" expanded="true" signature="1069:1074" ph="..." />
-                <marker date="1537395967062" expanded="true" signature="1069:1620" ph="..." />
+                <element signature="e#0#79#0" expanded="true" />
+                <marker date="1537411165335" expanded="true" signature="482:1421" ph="..." />
+                <marker date="1537411165335" expanded="true" signature="923:1421" ph="..." />
+                <marker date="1537411165335" expanded="true" signature="1467:1472" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/socialapp/templates/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="10" selection-end-line="10" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/socialapp/templates/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -77,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socialapp/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="598">
+              <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -107,8 +124,6 @@
         <option value="$PROJECT_DIR$/socialapp/users/__init__.py" />
         <option value="$PROJECT_DIR$/socialapp/posts/views.py" />
         <option value="$PROJECT_DIR$/socialapp/posts/forms.py" />
-        <option value="$PROJECT_DIR$/socialapp/users/views.py" />
-        <option value="$PROJECT_DIR$/socialapp/users/forms.py" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/socialapp/core/views.py" />
         <option value="$PROJECT_DIR$/socialapp/templates/base.html" />
@@ -119,8 +134,13 @@
         <option value="$PROJECT_DIR$/socialapp/templates/error_pages/404.html" />
         <option value="$PROJECT_DIR$/socialapp/error_pages/handlers.py" />
         <option value="$PROJECT_DIR$/socialapp/templates/error_pages/403.html" />
-        <option value="$PROJECT_DIR$/socialapp/__init__.py" />
         <option value="$PROJECT_DIR$/socialapp/models.py" />
+        <option value="$PROJECT_DIR$/socialapp/users/forms.py" />
+        <option value="$PROJECT_DIR$/socialapp/users/picture_handler.py" />
+        <option value="$PROJECT_DIR$/socialapp/__init__.py" />
+        <option value="$PROJECT_DIR$/socialapp/templates/register.html" />
+        <option value="$PROJECT_DIR$/socialapp/users/views.py" />
+        <option value="$PROJECT_DIR$/socialapp/templates/login.html" />
       </list>
     </option>
   </component>
@@ -159,7 +179,13 @@
               <item name="social_flask" type="b2602c69:ProjectViewProjectNode" />
               <item name="social_flask" type="462c0819:PsiDirectoryNode" />
               <item name="socialapp" type="462c0819:PsiDirectoryNode" />
-              <item name="error_pages" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="social_flask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="social_flask" type="462c0819:PsiDirectoryNode" />
+              <item name="socialapp" type="462c0819:PsiDirectoryNode" />
+              <item name="users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -268,12 +294,6 @@
     <entry file="file://$PROJECT_DIR$/socialapp/posts/forms.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/socialapp/users/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/socialapp/users/forms.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -348,12 +368,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/socialapp/__init__.py">
+    <entry file="file://$PROJECT_DIR$/socialapp/users/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        <state relative-caret-position="437">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1537397251494" expanded="true" signature="351:356" ph="..." />
+            <marker date="1537397251494" expanded="true" signature="564:569" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialapp/users/picture_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+            <marker date="1537397851235" expanded="true" signature="115:120" ph="..." />
           </folding>
         </state>
       </provider>
@@ -370,6 +403,43 @@
             <marker date="1537395967062" expanded="true" signature="1069:1074" ph="..." />
             <marker date="1537395967062" expanded="true" signature="1069:1620" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialapp/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialapp/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#79#0" expanded="true" />
+            <marker date="1537411165335" expanded="true" signature="482:1421" ph="..." />
+            <marker date="1537411165335" expanded="true" signature="923:1421" ph="..." />
+            <marker date="1537411165335" expanded="true" signature="1467:1472" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialapp/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="10" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/socialapp/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
         </state>
       </provider>
     </entry>
