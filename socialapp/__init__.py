@@ -6,6 +6,8 @@ from flask_login import LoginManager
 
 app = Flask(__name__)
 
+app.config['SECRET_KEY'] = 'mysecret'
+
 # Database setup
 basedir = os.path.abspath(os.path.dirname(__file__))
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'data.sqlite')
@@ -22,7 +24,9 @@ Migrate(app, db)
 from socialapp.core.views import core
 from socialapp.users.views import users
 from socialapp.error_pages.handlers import error_pages
+from socialapp.posts.views import posts
 
 app.register_blueprint(core)
 app.register_blueprint(users)
+app.register_blueprint(posts)
 app.register_blueprint(error_pages)
